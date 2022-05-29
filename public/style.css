@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+background: -webkit-linear-gradient(#eee, #333);
+-webkit-background-clip: text;
+height: 900px;
+}
+
+
+main {
+    width: 50%;
+    margin: 0 25%;
+    font-size: 2rem;
+    text-align: center;
+    color: darkblue;
+}
+
+.container {
+  border: 40px solid darkblue;
+  border-radius: 30px;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+ul {
+    padding: none;
+}
+
+li {
+    list-style: none;
+}
+
+input, button {
+  border: none;
+  border-radius: 7px;
+  color: gray
+}
